@@ -23,6 +23,7 @@ document.addEventListener("DOMContentLoaded", function() {
             halted = true;
             var h3 = document.querySelector('h3');
             h3.innerHTML = "<span class='wrong'>No.</span> <br/>The correct digit was <span class='correct'>"+pistring[currNum.length-1]+"</span>";
+            h3.innerHTML += "<br/>Only " + currNum.length + " digits? Wow.";
             h3.innerHTML += "<br/>Press the <em class='correct'>correct</em> digit to try again.";
         }
     });
