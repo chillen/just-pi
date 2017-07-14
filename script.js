@@ -7,7 +7,8 @@ document.addEventListener("DOMContentLoaded", function() {
     document.addEventListener("keypress", function(key) {
         if (isNaN(key.key)) return;
         if (halted && key.key == pistring[currNum.length-1]) {
-            num.innerHTML = "3.14";
+            currNum = "3.14"
+            num.innerHTML = currNum;
             h3 = document.querySelector('h3')
             h3.innerHTML = "";
             halted=false;
