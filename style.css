@@ -1,0 +1,34 @@
+body {
+    background: black;
+    color: #bbb;
+    text-align: center;
+    font-family: sans-serif;
+    margin-top: 20%;
+    font-size: 3em;
+}
+
+body > div {
+    width: 50%;
+    text-align: right;
+    direction: rtl;
+}
+
+body > div > h2 {
+   background: -webkit-linear-gradient(left, black , #bbb);
+   background: -o-linear-gradient(right, black , #bbb);
+   background: -moz-linear-gradient(right, black , #bbb);
+   background: linear-gradient(to right, black , #bbb); 
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.wrong {
+    -webkit-text-fill-color: red;
+}
+
+h3 {
+    font-size: 0.5em;
+}
+.correct {
+    color: green;
+}
