@@ -4,4 +4,4 @@ The stupidest, simplest, yet for whatever reason most addicting thing I made in 
 
 Type pi. Just. Keep. Typing. Pi.
 
-Available [here](chillen.github.io/just-pi).
+Available [here](https://chillen.github.io/just-pi).
